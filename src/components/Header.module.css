@@ -1,0 +1,27 @@
+.container {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  top: 10px;
+  right:10px;
+}
+
+.heading {
+  position: absolute;
+  left: 159px;
+  top: 5px;
+  font-weight: 3000;
+  font-size: 16px;
+}
+
+.container_avatars {
+  display: flex;
+  position: absolute;
+  right: 10px;
+}
+
+.container_avatars > * {
+  margin-left: 12px;
+}

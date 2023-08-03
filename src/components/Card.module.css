@@ -1,0 +1,14 @@
+.container {
+  position: relative;
+  background: "url(/bg.svg)";
+  border-radius: 5px;
+  padding: 0px;
+  touch-action: none;
+  height: 0;
+}
+
+@media (max-width: 800px) {
+  .container {
+    padding: 12px;
+  }
+}
